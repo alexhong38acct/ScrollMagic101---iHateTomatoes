@@ -40,7 +40,7 @@
 
 $(document).ready(function(){
 	// 	Init ScrollMagic
-	var controller = new ScrollMagic.Controller();		// tells the browser to use the scroll bar and trigger animation
+	var controller = new ScrollMagic.Controller();		// tells the browser to use the scroll bar and trigger animation. It ties the animation to the scrollbar.
 
 	// 	Build a scene : for one element animation
 	// var ourScene = new ScrollMagic.Scene({
